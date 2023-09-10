@@ -1,0 +1,162 @@
+.header {
+    background: #151515 url('../images/intro-bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.header .roles {
+    font-family: 'lora-regular',serif;
+}
+.header .text-container {
+    z-index: 10;
+}
+.header .social {
+    bottom: 50px;
+}
+
+.about-img {
+    width: 200px;
+}
+.about-hr{
+    width: 220px;
+    transition: all 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.8;
+}
+
+@media (max-width: 767px){
+    .header .social i{
+        font-size: 30px;
+    }
+    .header .roles {
+        font-size: 18px !important;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+}
+
+
+// progress bars
+.html {
+    cursor: pointer;
+    margin-bottom: -23px;
+}
+.html-progress{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.html:hover .html-progress {
+    opacity: 1;
+}
+
+
+.css {
+    cursor: pointer;
+    margin-bottom: -23px;
+}
+.css-progress{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.css:hover .css-progress {
+    opacity: 1;
+}
+
+.js {
+    cursor: pointer;
+    margin-bottom: -23px;
+}
+.js-progress{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.js:hover .js-progress {
+    opacity: 1;
+}
+
+.mongodb {
+    cursor: pointer;
+    margin-bottom: -23px;
+}
+.mongodb-progress{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.mongodb:hover .mongodb-progress {
+    opacity: 1;
+}
+
+.express {
+    cursor: pointer;
+    margin-bottom: -23px;
+}
+.express-progress{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.express:hover .express-progress {
+    opacity: 1;
+}
+
+.react {
+    cursor: pointer;
+    margin-bottom: -23px;
+}
+.react-progress{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.react:hover .react-progress {
+    opacity: 1;
+}
+
+.node {
+    cursor: pointer;
+    margin-bottom: -23px;
+}
+.node-progress{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.node:hover .node-progress {
+    opacity: 1;
+}
+
+.bootstrap {
+    cursor: pointer;
+    margin-bottom: -23px;
+}
+.bootstrap-progress{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.bootstrap:hover .bootstrap-progress {
+    opacity: 1;
+}
+
+.mysql {
+    cursor: pointer;
+    margin-bottom: -23px;
+}
+.mysql-progress{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.mysql:hover .mysql-progress {
+    opacity: 1;
+}
