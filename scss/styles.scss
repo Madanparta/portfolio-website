@@ -77,6 +77,18 @@
     opacity: 1;
 }
 
+.dsa {
+    cursor: pointer;
+    margin-bottom: -23px;
+}
+.dsa-progress{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.dsa:hover .dsa-progress {
+    opacity: 1;
+}
+
 .js {
     cursor: pointer;
     margin-bottom: -23px;
@@ -160,3 +172,5 @@
 .mysql:hover .mysql-progress {
     opacity: 1;
 }
+
+
